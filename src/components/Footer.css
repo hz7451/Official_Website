@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #000000;
+  background-color: #011638;
   padding: 2rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,14 @@
   align-items: center;
   text-align: center;
   /* margin-bottom: 24px; */
-  padding: 24px;
-  color: #fff;
+  padding: 10px;
+  color: #EFEFD0;
 }
 
 .footer-email {
   margin-top: 20px;
-  font-size: 13px;
+  letter-spacing: 1.5px;
+  font-size: 15px;
   display: inline-block;
   padding: 0px 10px;
 }
@@ -37,7 +38,7 @@
 
 .footer-subscription-text {
   margin-bottom: 24px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .footer-input {
@@ -48,7 +49,7 @@
   border: none;
   font-size: 18px;
   margin-bottom: 16px;
-  border: 1px solid #fff;
+  border: 1px solid #EFEFD0;
 }
 
 .footer-links {
@@ -66,7 +67,7 @@
 .footer-link-items {
   display: flex;
   flex-direction: column;
-  margin: 16px;
+  margin: 8px;
   text-align: center;
   width: 160px;
   box-sizing: border-box;
@@ -77,18 +78,14 @@
 }
 
 .footer-link-items > h2 {
-  color: #fff;
+  color: #EFEFD0;
 }
 
 .footer-link-items a {
-  color: #fff;
+  color: #EFEFD0;
   text-decoration: none;
   margin-bottom: 0.5rem;
-}
-
-.footer-link-items a:hover {
-  color: #e9e9e9;
-  transition: 0.3s ease-out;
+  font-size: 18px;
 }
 
 .footer-email-form h2 {
@@ -96,12 +93,12 @@
 }
 
 .footer-input::placeholder {
-  color: #b1b1b1;
+  color: #EFEFD0;
 }
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff;
+  color: #EFEFD0;
   font-size: 24px;
 }
 
@@ -126,21 +123,10 @@
   width: 240px;
 }
 
-.social-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
 .website-rights {
-  font-size: 11px;
-  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #EFEFD0;
   margin-bottom: 16px;
 }
 

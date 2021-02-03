@@ -20,14 +20,14 @@ video {
 
 .hero-container > h1 {
   
-  color: #fff;
+  color: #EFEFD0;
   font-size: 100px;
   margin-top: -100px;
 }
 
 .hero-container > p {
   margin-top: 8px;
-  color: #fff;
+  color: #EFEFD0;
   font-size: 32px;
   font-family: 'IBM Plex Sans', sans-serif;
 
