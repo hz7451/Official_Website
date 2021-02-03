@@ -33,7 +33,7 @@ function Navbar() {
             Blue Star Studio
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} style={{ 'color': '#66fcf1' }} />
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} style={{ 'color': '#fffff' }} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
@@ -43,33 +43,34 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/about'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                About
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/work'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Work
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/contact'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact
               </Link>
             </li>
 
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
           </ul>
+          <NavItem link='' name='HOME' />
           <NavItem link='about' name='ABOUT' />
           <NavItem link='work' name='WORK' />
           <NavItem link='contact' name='CONTACT' />

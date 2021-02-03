@@ -12,10 +12,10 @@
 
     stroke-dasharray: 40 540;
     stroke-dashoffset: -197;
-    stroke-width: 3px;
+    stroke-width: 2px;
     fill: transparent;
-    stroke: #66fcf1;
-    border-bottom: 3px solid black;
+    stroke: #654ce5;
+    border-bottom: 2px solid black;
     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
   }
   .text {

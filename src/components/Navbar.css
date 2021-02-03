@@ -1,5 +1,5 @@
 .navbar {
-  background:#0F183A;
+  background:#1c1f28;
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 7.0px );
   -webkit-backdrop-filter: blur( 7.0px ); */
@@ -28,7 +28,7 @@
   font-family: 'IBM Plex Sans', sans-serif;
   font-style: italic;
   letter-spacing: 1px;
-  color: #66fcf1;
+  color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -100,7 +100,7 @@
   }
 
   .nav-menu.active {
-    background: rgba( 15, 24, 58, 0.95 );
+    background: #1c1f28;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7.0px );
     -webkit-backdrop-filter: blur( 7.0px );
@@ -119,6 +119,8 @@
   }
 
   .nav-links:hover {
+    border-color: #66fcf1 ;
+    border-width: 20px;
     background-color: #fff;
     color: #242424;
     border-radius: 0;
@@ -162,6 +164,7 @@
   }
 
   .nav-links-mobile:hover {
+    border: #66fcf1;
     background: #fff;
     color: #242424;
     transition: 250ms;
