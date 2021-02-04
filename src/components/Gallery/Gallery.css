@@ -8,15 +8,15 @@
   }
   
   .box2 {
-    flex: 0 0 25%;
+    flex: 0 0 30%;
     overflow: hidden;
     transition: .5s;
-    margin: 2% 2%;
+    margin: 1% 1%;
     box-shadow: 0 20px 30px rgba(0,0,0,.3);
     line-height: 0;
   }
   
-  .box2 > img,video {
+  .box2 > img {
     border: .6px solid #ffffff;
     /* border-radius: 10px; */
     width: 100%;
@@ -25,7 +25,7 @@
     transition: .5s;
   }
 
-  .box2:hover { flex: 0 0 35%; }
+  .box2:hover { flex: 0 0 34%; }
   .box2:hover > img{
     width: 100%;
     height: 100%;
