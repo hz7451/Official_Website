@@ -1,14 +1,7 @@
 /* :root {
     --color: #EFEFD0;
   } */
-/*   
-  body {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-sherif;
-    margin: 0;
-    padding: 0;
-  } */
-  
+
   .content {
     max-width: 600px;
     margin: 0 auto;
@@ -96,5 +89,28 @@
     100% {
       transform: translate(-50%, -75%) rotate(360deg);
     }
+  }
+
+  @media screen and (max-width: 500px) {
+      
+  .hero h2 {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    font-size: 2.5rem;
+    margin: 30px;
+    line-height: 1;
+    color:#011638;
+    
+  }
+  
+  .hero p {
+    position: relative;
+    z-index: 1;
+    font-size: 17px;
+    color: #011638;
+    line-height: 1.4;
+    
+  }
   }
   

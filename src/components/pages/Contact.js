@@ -11,7 +11,7 @@ export default function Contact() {
       initial="out" animate="in" exit="out" variants={animationOne}
       transition={animationOne}
     >
-      <Background />
+      <Background headline='Contact Us' content={[<br />, "Phone: +852 62088586", <br />, <br />, "Email: info@bluestarstudio.com"]} />
       <Footer />
     </motion.div>
   )

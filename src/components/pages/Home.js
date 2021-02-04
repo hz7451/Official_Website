@@ -13,7 +13,7 @@ function Home() {
       transition={transition}
     >
       <Hero2 headline='WELCOME' content='Are you looking for Website / Animation ?' />
-      <Background headline='Lorem Ipsum' content='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."' />
+      <Background headline='About Us' content='Blue Star Studio is a company dedicated on Animation and Website Design. We offer excellent 3D / 2D renders with affortable price. Please checkout the work page to see what we can do! Feel free to contact us for further enquires.' />
       {/* <Cards /> */}
       <Footer />
     </motion.div>
