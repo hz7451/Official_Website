@@ -69,10 +69,10 @@ function Navbar() {
             </li>
 
           </ul>
-          <NavItem link='/' name='HOME' />
-          <NavItem link='/about' name='ABOUT' />
-          <NavItem link='/work' name='WORK' />
-          <NavItem link='/contact' name='CONTACT' />
+          <NavItem link='' name='HOME' />
+          <NavItem link='about' name='ABOUT' />
+          <NavItem link='work' name='WORK' />
+          <NavItem link='contact' name='CONTACT' />
         </div>
       </nav>
     </>
