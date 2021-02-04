@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/Official_Website/' className='navbar-logo' onClick={closeMobileMenu}>
             Blue Star Studio
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -36,13 +36,13 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Official_Website/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/about'
+                to='/Official_Website/about'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -51,7 +51,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/work'
+                to='/Official_Website/work'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -60,7 +60,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/contact'
+                to='/Official_Website/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -69,10 +69,10 @@ function Navbar() {
             </li>
 
           </ul>
-          <NavItem link='' name='HOME' />
-          <NavItem link='about' name='ABOUT' />
-          <NavItem link='work' name='WORK' />
-          <NavItem link='contact' name='CONTACT' />
+          <NavItem link='/Official_Website/' name='HOME' />
+          <NavItem link='/Official_Website/about' name='ABOUT' />
+          <NavItem link='/Official_Website/work' name='WORK' />
+          <NavItem link='/Official_Website/contact' name='CONTACT' />
         </div>
       </nav>
     </>

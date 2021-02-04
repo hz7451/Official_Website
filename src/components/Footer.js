@@ -35,16 +35,16 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <Link to='/about'>About Us</Link>
+            <Link to='/Official_Website/about'>About Us</Link>
           </div>
           <div class='footer-link-items'>
-            <Link to='/work'>Work</Link>
+            <Link to='/Official_Website/work'>Work</Link>
 
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <Link to='/contact'>Contact Us</Link>
+            <Link to='/Official_Website/contact'>Contact Us</Link>
 
           </div>
         </div>

@@ -15,10 +15,10 @@ function App() {
         <Navbar />
         <AnimatePresence exitBeforeEnter>
           <Switch>
-            <Route path='/' exact component={Home} />
-            <Route path='/about' component={About} />
-            <Route path='/work' component={Work} />
-            <Route path='/contact' component={Contact} />
+            <Route path='/Official_Website/' exact component={Home} />
+            <Route path='/Official_Website/about' component={About} />
+            <Route path='/Official_Website/work' component={Work} />
+            <Route path='/Official_Website/contact' component={Contact} />
           </Switch>
         </AnimatePresence>
       </Router>
