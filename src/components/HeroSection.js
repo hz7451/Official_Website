@@ -25,7 +25,7 @@ function HeroSection() {
           dir='/contact'
         >
           CONTACT US <i className='far fa-play-circle' />
-        </Button>
+        </Button>ç
       </div>
     </div>
   );
